@@ -2,7 +2,7 @@ import psycopg2
 
 # MOD: establish connection and cursor
 def getConAndCursor():
-    con = psycopg2.connect("dbname=webapp user=postgres host=spartandb.lrgvdc911.org")
+    con = psycopg2.connect("dbname=webapp user=postgres host=host")
     cursor = con.cursor()
     return con, cursor
 
