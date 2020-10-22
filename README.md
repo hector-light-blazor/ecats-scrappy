@@ -10,8 +10,11 @@ May work on linux or mac os havent tried.
 # Dependancies & Python Version
 
 Python Version 3.8
+
 1.) Selenium
+
 2.) psycopg2
+
 3.) win32api
 
 IF need a binary use the following
